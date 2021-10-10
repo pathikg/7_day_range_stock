@@ -40,7 +40,7 @@ if len(df) > 1:  # since there are some exceptions in data idk why only start da
         font=dict(
             size=13,
         ),
-        xaxis_rangeslider_visible=True
+        xaxis_rangeslider_visible=False
     )
 
     st.plotly_chart(fig)

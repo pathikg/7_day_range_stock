@@ -39,7 +39,8 @@ if len(df) > 1:  # since there are some exceptions in data idk why only start da
         yaxis_title="Price",
         font=dict(
             size=13,
-        )
+        ),
+        xaxis_rangeslider_visible=True
     )
 
     st.plotly_chart(fig)

@@ -45,7 +45,7 @@ if len(df) > 1:  # since there are some exceptions in data idk why only start da
     st.plotly_chart(fig)
     st.markdown(f"* **Previous Range** = {current_range}")
     st.markdown(
-        f"* **Last 7 day mean range before**  = {last_7_day_mean}")
+        f"* **Last 7 day average range**  = {last_7_day_mean}")
 
 
 else:
